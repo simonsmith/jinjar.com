@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/static/css/jinjar.css">
+{% endblock %}
+
+{% block content %}
+    <div class="layout-container">
+        <header role="banner">
+            <h1 class="hdr-main">jinjar <abbr title="Limited">LTD</abbr></h1>
+            <p class="hdr-sub">Builder of things for the web</p>
+        </header>
+        <footer role="contentinfo">
+            <p class="email"><a href="mailto:info@jinjar.com">info@jinjar.com</a></p>
+            <p class="date">{{date}}</p>
+        </footer>
+    </div>
+{% endblock %}
