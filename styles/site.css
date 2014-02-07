@@ -1,0 +1,39 @@
+body {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    color: #555;
+    margin: 0;
+    line-height: 1.4;
+}
+
+a {
+    color: #e0730c;
+}
+
+.Container {
+    max-width: 500px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Logo {
+    border-top: #e0730c 3px solid;
+    text-align: center;
+    color: #e0730c;
+}
+
+.Logo-text {
+    margin-bottom: 3px;
+}
+
+.Logo-subtitle {
+    margin: 0;
+}
+
+.Content {
+    margin-top: 50px;
+}
+
+.Footer {
+    margin-top: 35px;
+}
